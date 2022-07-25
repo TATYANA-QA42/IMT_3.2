@@ -1,6 +1,6 @@
 public class BmiService {
-    public float calculate(float x, float y) {
-        float result = y / (x * x);
+    public float calculate(float factGrowth, float factWeight) {
+        float result = factWeight / (factGrowth * factGrowth);
         return result;
     }
 }
